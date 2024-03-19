@@ -208,7 +208,7 @@ body{
         font-family: serif;     /*フォント変更*/
         color:black;          /*フォントの色変更*/
         letter-spacing: 2px;     /*文字同士の間隔変更*/
-        padding-left: 13px;      /*タイトル部分と左側の間隔をあけた*/
+        padding-left: 10px;      /*タイトル部分と左側の間隔をあけた*/
         font-size: 15px;
         padding-left: .5em;
         padding-top: .3em;
@@ -241,7 +241,7 @@ body{
          height: 1500px;
          padding: 40px;
          margin-right: -65px;
-         background-color: #f8f8ff;
+         background-color: #FFFFFF;
      }
     /* ------------------------------ */
     /* ▼サイドメニューの「スケジュール」 */
@@ -251,7 +251,7 @@ body{
          font-family: serif;
          color: black;
          text-align: center;
-         font-size: 15px;
+         font-size: 11px;
      }
     /* ------------------------------ */
     /* ▼サイドメニューの年号の点を消した */
@@ -264,7 +264,7 @@ body{
     /* ----------------------- */
      .li-side{
          font-family: serif;
-         font-size: 13px;
+         font-size: 10px;
          text-align: center;
      }
      .li-side:hover{
