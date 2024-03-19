@@ -266,6 +266,7 @@ body{
          font-family: serif;
          font-size: 6px;
          text-align: center;
+	 white-space: nowrap; 
      }
      .li-side:hover{
          color: teal;
