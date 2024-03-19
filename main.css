@@ -251,7 +251,7 @@ body{
          font-family: serif;
          color: black;
          text-align: left;
-         font-size: 11px;
+         font-size: 9px;
      }
     /* ------------------------------ */
     /* ▼サイドメニューの年号の点を消した */
@@ -264,7 +264,7 @@ body{
     /* ----------------------- */
      .li-side{
          font-family: serif;
-         font-size: 8px;
+         font-size: 5px;
          text-align: left;
      }
      .li-side:hover{
