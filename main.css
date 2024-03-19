@@ -265,7 +265,7 @@ body{
      .li-side{
          font-family: serif;
          font-size: 6px;
-         text-align: center;
+         text-align: left;
 	 white-space: nowrap; 
      }
      .li-side:hover{
