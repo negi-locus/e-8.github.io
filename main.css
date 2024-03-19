@@ -74,11 +74,10 @@ ul.ddmenu ul {
 /* ▼メインメニュー（左側） */
 /* -------------------- */
  .main{
-     width: 100%;
-     height: 1500px;
+     width: 90%;
+     height: 1000px;
      padding: 10px;
-     background-color: #ccc;
-     margin-left: -23px;
+     margin-left: -60px;
  }
 .main img{
      width: 120%;
