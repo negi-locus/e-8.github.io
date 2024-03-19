@@ -237,10 +237,10 @@ body{
     /* ▼サイドメニュー（右側） */
     /* -------------------- */
      .side{
-         width: 30%;
+         width: 80px;
          height: 1500px;
          padding: 40px;
-         margin-right: -65px;
+         margin-right: -23px;
          background-color: #FFFFFF;
      }
     /* ------------------------------ */
@@ -250,7 +250,7 @@ body{
          margin-top: -25px;
          font-family: serif;
          color: black;
-         text-align: center;
+         text-align: left;
          font-size: 11px;
      }
     /* ------------------------------ */
@@ -265,7 +265,7 @@ body{
      .li-side{
          font-family: serif;
          font-size: 8px;
-         text-align: center;
+         text-align: left;
      }
      .li-side:hover{
          color: teal;
