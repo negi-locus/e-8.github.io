@@ -264,8 +264,8 @@ body{
     /* ----------------------- */
      .li-side{
          font-family: serif;
-         font-size: 5px;
-         text-align: left;
+         font-size: 6px;
+         text-align: center;
      }
      .li-side:hover{
          color: teal;
