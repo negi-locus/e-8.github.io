@@ -230,7 +230,7 @@ body{
          width: 100%;
          height: 500px;
          padding: 10px;
-         background-color: #ccc;
+         background-color: #FFFFFF;
          margin-left: -23px;
      }
     /* -------------------- */
@@ -238,7 +238,7 @@ body{
     /* -------------------- */
      .side{
          width: 30%;
-         height: 800px;
+         height: 1500px;
          padding: 40px;
          margin-right: -65px;
          background-color: #f8f8ff;
