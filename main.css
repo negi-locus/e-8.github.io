@@ -208,7 +208,7 @@ body{
         color:black;          /*フォントの色変更*/
         letter-spacing: 2px;     /*文字同士の間隔変更*/
         padding-left: 13px;      /*タイトル部分と左側の間隔をあけた*/
-        font-size: 30px;
+        font-size: 10px;
         padding-left: .5em;
         padding-top: .3em;
         padding-bottom: .3em;
