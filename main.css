@@ -263,6 +263,14 @@ body{
          margin-left: -23px;
      }
     /* -------------------- */
+    /* ▼メインメニュー画像（左側） */
+    /* -------------------- */
+　　　.main img{
+	   margin-left: -10px;
+	   width: 120%;
+	   height: 30%;
+   }
+    /* -------------------- */
     /* ▼サイドメニュー（右側） */
     /* -------------------- */
      .side{
@@ -330,6 +338,32 @@ body{
     body{
         background: #f0f8ff;
     }
+    /*入力フォーム*/
+#sbox1{
+  width:150px;/*横幅*/
+  height: 15px;
+  padding:20 20px;/*プレースホルダーの位置調整*/
+  border-radius:4px 0 0 4px;/*左側の角を少し丸める*/		
+  background:#eee;/*検背景カラー*/
+  border:none;/*枠線を消す*/ 
+  outline:0;/*クリック時の青い枠線消す*/
+  margin-left: 250px;
+}
+/*検索ボタン*/
+#sbtn1{
+  width:40px;/*横幅*/ 
+  border-radius:0 4px 4px 0;/*右側の角を少し丸める*/ 
+  background:#008080;/*背景カラー*/ 
+  border:none;/*枠線を消す*/ 
+  color:#fff;/*テキストカラー*/ 
+  font-size:10px;/*フォントサイズ指定*/ 
+  cursor: pointer;/*マウスを乗せると指差しポインターになる*/
+}
+/*検索ボタンマウスオーバー時*/
+#sbtn1:hover {
+  background: #008080;/*背景カラー変更*/
+}
+
    }
 
 
