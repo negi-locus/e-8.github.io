@@ -1,0 +1,192 @@
+/*
+★スマホで閲覧する用のCSS
+*/
+
+@media screen and (max-width:768px){
+    ul.ddmenu {
+        margin: 0px;               /* メニューバー外側の余白(ゼロ) */
+        padding: 0px 0px 0px 10px; /* メニューバー内側の余白(左に15px) */
+        background-color: teal; /* バーの背景色(濃い赤色) */
+     }
+     
+     /* -------------------------- */
+     /* ▼メインメニュー項目の装飾 */
+     /* -------------------------- */
+     ul.ddmenu li {
+        width: 60px;           /* メニュー項目の横幅(125px) */
+        display: inline-block;  /* ★1:横並びに配置する */
+        list-style-type: none;  /* ★2:リストの先頭記号を消す */
+        position: relative;     /* ★3:サブメニュー表示の基準位置にする */
+     }
+     ul.ddmenu a {
+        background-color: teal; /* メニュー項目の背景色(濃い赤色) */
+        color: white;              /* メニュー項目の文字色(白色) */
+        line-height: 40px;         /* メニュー項目のリンクの高さ(40px) */
+        text-align: center;        /* メインメニューの文字列の配置(中央寄せ) */
+        text-decoration: none;     /* メニュー項目の装飾(下線を消す) */
+        font-weight: bold;         /* 太字にする */
+        display: block;            /* ★4:項目内全域をリンク可能にする */
+        font-family: serif;
+        font-size: 10px;
+     }
+     ul.ddmenu a:hover {
+        background-color: #f5f5f5; /* メニュー項目にマウスが載ったときの背景色(淡いピンク) */
+        color: black;            /* メニュー項目にマウスが載ったときの文字色(濃い赤色) */
+     }
+     
+     /* ▼サブメニューは、とりあえず非表示にしておく */
+     ul.ddmenu ul {
+        display: none;         /* ★5:非表示にする */
+     }
+    
+    /* -------------------- */
+    /* ▼サブメニューの装飾 */
+    /* -------------------- */
+    ul.ddmenu ul {
+        display: none;       /* ★1:標準では非表示にする */
+        margin: 0px;         /* ★2:サブメニュー外側の余白(ゼロ) */
+        padding: 0px;        /* ★3:サブメニュー内側の余白(ゼロ) */
+        position: absolute;  /* ★4:絶対配置にする */
+     }
+     
+     /* ---------------------------------- */
+     /* ▼サブメニューがある場合に開く処理 */   /* ※サブメニューが1階層しか存在しない場合の記述 */
+     /* ---------------------------------- */
+     ul.ddmenu li:hover ul {
+        display: block;      /* ★5:マウスポインタが載っている項目の内部にあるリストを表示する */
+     }
+    
+     .title{
+        margin-right: auto;      /*タイトルだけを左端に移動*/
+        font-family: serif;     /*フォント変更*/
+        color:black;          /*フォントの色変更*/
+        letter-spacing: 2px;     /*文字同士の間隔変更*/
+        padding-left: 13px;      /*タイトル部分と左側の間隔をあけた*/
+        font-size: 15px;
+        padding-left: .5em;
+        padding-top: .3em;
+        padding-bottom: .3em;
+        border-left: 6px solid #2f4f4f;
+     }
+    
+    
+     .container{
+         width: 90%;
+         margin: 0 auto;
+         display: flex;
+         justify-content: space-between;
+     }
+    /* -------------------- */
+    /* ▼メインメニュー（左側） */
+    /* -------------------- */
+     .main{
+         width: 120%;
+         height: 900px;
+         padding: 10px;
+         background-color: white;
+         margin-left: -23px;
+     }
+
+    /* -------------------- */
+    /* ▼メインメニュー（左側） */
+    /* -------------------- */
+    .main img{
+        margin-left: -10px;
+        width: 120%;
+        height: 30%;
+    }
+    /* -------------------- */
+    /* ▼サイドメニュー（右側） */
+    /* -------------------- */
+     .side{
+         width: 80px;
+         height: 500px;
+         padding: 40px;
+         margin-right: -23px;
+         
+         background-color: #f8f8ff;
+     }
+    /* ------------------------------ */
+    /* ▼サイドメニューの「スケジュール」 */
+    /* ------------------------------ */
+     h3{
+         margin-top: -25px;
+         font-family: serif;
+         color: black;
+         text-align: left;
+         font-size: 11px;
+     }
+    /* ------------------------------ */
+    /* ▼サイドメニューの年号の点を消した */
+    /* ------------------------------ */
+     .ul1{
+         list-style: none;
+     }
+    /* ----------------------- */
+    /* ▼サイドメニューの文字部分 */
+    /* ----------------------- */
+     .li-side{
+         font-family: serif;
+         font-size: 8px;
+         text-align: left;
+     }
+     .li-side:hover{
+         color: teal;
+    
+     }
+     a{
+       color: black;  
+       display: inline-block;
+        position: relative;
+         text-decoration: none;
+     }
+    a:hover:before {
+        transform: scale(1);
+    }
+    
+     a:hover{
+        color:teal;
+        font-weight: bold;
+    }
+    .parent {
+        display: flex;
+        overflow-x: scroll;
+        }
+    /* -------------------- */
+    /* ▼新聞のブロック */
+    /* -------------------- */   
+       .child {
+        color: black;
+        border: solid 2px white;
+        text-align: center;
+        line-height: 100px;
+        width: 70px;
+        height: 70px;
+        background-color: #87cefa;
+        font-family: serif;
+        font-size: 13px;
+       }
+    /* -------------------- */
+    /* ▼ブロックにカーソル合わせたときの処理 */
+    /* -------------------- */
+       .child:hover{
+           background-color: white;
+           border: solid 2px #87cefa;
+       }
+    
+    /* -------------------- */
+    /* ▼メインメニュー 「映画新聞」 */
+    /* -------------------- */
+    .div-news{
+        font-size: 20px;
+        font-family: serif;
+        color: #364e96;/*文字色*/
+      border-top: solid 3px #364e96;/*上線*/
+      border-bottom: solid 3px #364e96;/*下線*/
+    }
+    .news-number{
+        font-size: 15px;
+        font-family: serif;
+    }
+   
+   }
