@@ -84,6 +84,34 @@ ul.ddmenu ul {
      height: 60%;
  }
 /* -------------------- */
+/* ▼新聞部分 */
+/* -------------------- */
+.parent {
+ display: flex;
+ overflow-x: scroll;
+ }
+ 
+.child {
+ color: black;
+ border: solid 2px white;
+ text-align: center;
+ line-height: 100px;
+ width: 100px;
+ height: 100px;
+ background-color: #87cefa;
+}
+.div-news{
+    font-size: 25px;
+    font-family: serif;
+    color: #364e96;/*文字色*/
+  border-top: solid 3px #364e96;/*上線*/
+  border-bottom: solid 3px #364e96;/*下線*/
+}
+.news-number{
+    font-size: 18px;
+    font-family: serif;
+}
+/* -------------------- */
 /* ▼サイドメニュー（右側） */
 /* -------------------- */
  .side{
