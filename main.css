@@ -154,17 +154,7 @@ ul.ddmenu ul {
 	position: relative;
  	text-decoration: none;
  }
-a:before{
-	content: "";
-	position: absolute;
-	left: 0;
-	bottom: 3px;
-	width: 100%;
-	height: 3px;
-	background: #555;
-	transform: scale(0, 1);
-	transition: 0.4s;
-}
+
 a:hover:before {
 	transform: scale(1);
 }
@@ -290,6 +280,16 @@ body{
          background-color: #FFFFFF;
          margin-left: -23px;
      }
+　　/* -------------------- */
+    /* ▼メインメニュー 「映画新聞」 */
+    /* -------------------- */
+    .div-news{
+        font-size: 25px;
+        font-family: serif;
+        color: #364e96;
+        border-top: solid 3px #364e96;
+        border-bottom: solid 3px #364e96;
+    }
     /* -------------------- */
     /* ▼メインメニュー画像（左側） */
     /* -------------------- */
@@ -343,17 +343,6 @@ body{
         position: relative;
          text-decoration: none;
      }
-    a:before{
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: 3px;
-        width: 100%;
-        height: 1px;
-        background: #555;
-        transform: scale(0, 1);
-        transition: 0.4s;
-    }
     a:hover:before {
         transform: scale(1);
     }
@@ -390,6 +379,20 @@ body{
 /*検索ボタンマウスオーバー時*/
 #sbtn1:hover {
   background: #008080;/*背景カラー変更*/
+}
+.parent {
+ display: flex;
+ overflow-x: scroll;
+ }
+ 
+.child {
+ color: black;
+ border: solid 2px white;
+ text-align: center;
+ line-height: 100px;
+ width: 100px;
+ height: 100px;
+ background-color: #87cefa;
 }
 
    }
