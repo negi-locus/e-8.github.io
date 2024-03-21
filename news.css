@@ -1,0 +1,43 @@
+/*
+★映画新聞CSS
+*/
+
+.parent {
+    display: flex;
+    overflow-x: scroll;
+    }
+/* -------------------- */
+/* ▼新聞のブロック */
+/* -------------------- */   
+   .child {
+    color: black;
+    border: solid 2px white;
+    text-align: center;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: #87cefa;
+    font-family: serif;
+   }
+/* -------------------- */
+/* ▼ブロックにカーソル合わせたときの処理 */
+/* -------------------- */
+   .child:hover{
+       background-color: white;
+       border: solid 2px #87cefa;
+   }
+
+/* -------------------- */
+/* ▼メインメニュー 「映画新聞」 */
+/* -------------------- */
+.div-news{
+    font-size: 25px;
+    font-family: serif;
+    color: #364e96;/*文字色*/
+  border-top: solid 3px #364e96;/*上線*/
+  border-bottom: solid 3px #364e96;/*下線*/
+}
+.news-number{
+    font-size: 18px;
+    font-family: serif;
+}
